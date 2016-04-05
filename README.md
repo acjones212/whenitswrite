@@ -1,4 +1,6 @@
 # WhenItsWrite
+Google Play link:
+https://play.google.com/store/apps/details?id=com.austinjones.whenitswrite
 
 <img src="screenshots/screenshot1.png"/>
 When It's Write is an app that allows musicians to write and store lyrics while they are one the go.
@@ -11,5 +13,3 @@ The approach I took in my design is to make something that I would want to use. 
 This app is designed for musicians but can also be used for many other purposes such as note taking.
 
 There are many features that I wanted to include but they did not fit the time frame for this release.
-
-This app is available on Google Play.
