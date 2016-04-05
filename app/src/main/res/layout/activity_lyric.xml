@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.austinjones.whenitswrite.LyricActivity"
+    android:background="@color/tan">
+
+    <TextView
+        android:id="@+id/songTitle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Title"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_alignTop="@id/songTitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        android:text="back"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back"/>
+
+    <EditText
+        android:id="@+id/lyricsEditText"
+        android:layout_below="@id/songTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type Lyrics Here"/>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/btnLayout"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<Button-->
+            <!--android:id="@+id/recordBtn"-->
+            <!--android:text="R"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:onClick="startRecord"-->
+            <!--android:layout_weight="1"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/stopBtn"-->
+            <!--android:text="S"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:onClick="stop"-->
+            <!--android:layout_weight="1"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/playBtn"-->
+            <!--android:text="P"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:onClick="play"-->
+            <!--android:layout_weight="1"/>-->
+    <!--</LinearLayout>-->
+
+
+</RelativeLayout>
